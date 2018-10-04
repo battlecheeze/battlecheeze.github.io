@@ -1,0 +1,341 @@
+/* CSS RESET */
+
+/* 
+ * html5doctor.com Reset Stylesheet
+ * v1.6.1
+ * Last Updated: 2010-09-17
+ * Author: Richard Clark - http://richclarkdesign.com 
+ * Twitter: @rich_clark
+ * */
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+footer,  nav, section {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+}
+
+body {
+    line-height:1;
+}
+
+
+/* END OF CSS RESET */
+
+/* GLOBAL SETTINGS */
+html {
+	background: #b0c4de; /* Lightsteel blue*/
+}
+
+body {
+	font-family: "Open Sans";
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol, li {
+	list-style-type: none;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+#main_body {
+	margin-bottom: 0;
+}
+
+#main_body .wrapper {
+	border-radius: 15px 15px 0 0;
+	background: #d3d3d3;
+}
+
+/* END OF GLOBAL SETTINGS */
+
+/* HEADER LOGO */
+
+#header_logo {
+	margin: 30px 0;
+}
+
+/* hide text */
+#header_logo h3 {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 0;
+}
+
+#header_logo a {
+	display: block;
+	color: rgb(255,255,51);
+	font-size: 12px;
+	text-decoration: none;
+	text-align: right;
+}
+
+#header_logo img {
+	margin: 0 auto;
+	display: block;
+}
+
+/* END OF HEADER LOGO */
+
+/* GREETINGS */
+
+/* hide text */
+.greetings h3 {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 0;
+}
+
+.greetings p {
+	margin: 15px auto;
+	padding: 0 20px;
+	font-size: 14px;
+	line-height: 30px;
+	width: 820px;	
+}
+
+.greetings img {
+	float: right;
+	width: 100px;
+	height: auto;
+	border-radius: 50%;
+	margin-right: 5%;
+}
+
+/* .greetings p:nth-child(4):after {
+	content:"";
+	display: block;
+	clear: both;
+} */
+/* END OF GREETINGS */
+
+/* FEATURE IMAGE */
+
+.feature_image {
+	margin: 0 auto;
+	width: 960px;
+}
+
+/* END OF FEATURE IMAGE */
+
+/* NEWSLETTER TABLE DIV */
+
+.header_table, .news_table {
+	display: table;
+	width: 98%;
+	margin: 15px auto;
+}
+
+.header_row, .news_row {
+	display: table-row;
+}
+
+.header_cell, .news_cell {
+	display: table-cell;
+}
+
+.header_row {
+	background: #ddad0d; 
+}
+.header_cell {
+	width: 50%;
+}
+
+.header_cell h3 {
+	text-align: center;
+	margin: 5px;
+	font-weight: 600;
+	font-family: Roboto;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+.news_table {
+	background: #696969;
+	color: #fff;
+}
+
+.news_cell:nth-child(1) {
+	vertical-align: middle;
+	width: 8%;
+	text-align: center;
+}
+
+.news_cell:nth-child(1) img {
+	width: 50px;
+	height: auto;
+}
+
+.news_cell:nth-child(2), .news_cell:nth-child(3) {
+	width: 45%;
+	padding: 2.1% 2.1% 2.1% 0;
+}
+
+.news_cell:nth-child(2) a, .news_cell:nth-child(3) a {
+	font-size: 14px;
+	font-weight: 700;
+	color: #20B2AA; /* ligh sea green */
+}
+
+.news_cell:nth-child(2) p, .news_cell:nth-child(3) p {
+	margin: 14px 0;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.news_cell:nth-child(3) p:nth-child(2) {
+	font-weight: 700;
+}
+
+.news_cell:nth-child(3) a {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	background: #ffdab9;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 5px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.36);
+	text-transform: uppercase;
+}
+/* END OF NEWSLETTER TABLE DIV */
+
+/* START OF UPGRADE ACCOUNT  */
+
+.upgrade_account {
+	margin: 30px;
+}
+
+.upgrade_account h2, .upgrade_account p {
+	text-align: center;
+	margin: 30px;
+}
+
+.upgrade_account h2 {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 34px;
+}
+
+.upgrade_account p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.upgrade_button {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 280px;
+	padding: 10px 0;
+	background: #ffdab9;
+	border-radius: 5px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.36);
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	color: #20B2AA;
+}
+
+/* END OF UPGRADE ACCOUNT */
+
+/* START OF QUOTES */
+
+.quotes {
+	background: #566272;
+	width: 98%;
+	margin: 30px auto 0 auto;
+	font-family: "Times New Roman";
+	font-style: italic;
+	color: #fff;
+}
+
+.quotes h2 {
+	padding-top: 50px;
+	margin-left: 220px;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+.quotes p {
+	margin-left: 350px;
+
+}
+
+.quotes p span {
+	color: #ff6669;
+	font-weight: 800;
+}
+
+/* END OF QUOTES */
+
+footer .wrapper {
+	background: #d3d3d3;
+	border-radius: 0 0 15px 15px;
+}
+
+footer h3 {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 24px;
+}
+
+footer p {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#social_media_icons {
+	width: 188px;
+	margin: 30px auto;
+	padding-left: 0;
+}
+
+#social_media_icons li {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+
+
+/* Regex in the CSS
+ * Says that select a elements inside the #social_media_icons that have a class starting with the
+ * words 'fa' 
+ * https://stackoverflow.com/questions/8903313/using-regular-expression-in-css
+ */
+#social_media_icons a[class^='fa'] {
+	font-size: 33px;
+	background: white;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 52px; 
+}
+
+#contact_us {
+	padding-bottom: 15px;
+}
+
+#contact_us li {
+	font-size: 12px;
+	margin: 5px;
+	text-align: center;
+}
+
